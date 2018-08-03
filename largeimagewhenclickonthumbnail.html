@@ -1,0 +1,28 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style17.css">
+<title></title>
+</head>
+<body>
+<div class="imgbox"><img src="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g10.jpg"></div>
+<ul class="thumb">
+
+<li><a href="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g10.jpg" target="imgbox"><img src="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g10.jpg" width="120px" /></a></li>
+<li><a href="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g9.jpg" target="imgbox"><img src="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g9.jpg" width="120px" /></a></li>
+<li><a href="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g8.jpg" target="imgbox"><img src="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g8.jpg" width="120px" /></a></li>
+<li><a href="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g7.jpg" target="imgbox"><img src="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g7.jpg" width="120px" /></a></li>
+<li><a href="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g6.jpg" target="imgbox"><img src="https://p.w3layouts.com/demos_new/template_demo/06-04-2018/peregrinate-demo_Free/601223848/web/images/g6.jpg" width="120px" /></a></li>
+
+</ul>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.thumb a').click(function(e){
+e.preventDefault();
+$('.imgbox img').attr("src",$(this).attr("href"))
+})
+})
+</script>
+
+</body>
+</html>
